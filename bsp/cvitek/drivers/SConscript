@@ -6,7 +6,7 @@ CPPDEFINES = []
 
 CPPPATH = [cwd]
 
-if GetDepend('BSP_USING_CV1800B') or GetDepend('BSP_USING_C906_LITTLE'):
+if GetDepend('BSP_USING_CV1800B') or GetDepend('BSP_USING_C906_LITTLE') or GetDepend('BSP_USING_CV1812CP') :
     CPPPATH += [cwd + r'/cv1800b']
 
 if GetDepend('BSP_USING_CV1800B'):
