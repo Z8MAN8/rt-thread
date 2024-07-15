@@ -325,7 +325,7 @@ menu "General Drivers Configuration"
             if SOC_TYPE_SG2002
                 config TIMER_IRQ_BASE
                     int
-                    default 55
+                    default 51
             endif
         endif
 
